@@ -1,0 +1,3 @@
+{% for book in books %}
+Book "{{ book.title }}" was written by '{{ book.author }}' and costs {{ book.price }}€.
+{% endfor %}
